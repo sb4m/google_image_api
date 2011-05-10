@@ -1,0 +1,32 @@
+h1. Google image
+
+Allows you to get images through their google image API.
+
+API reference: "http://code.google.com/apis/imagesearch/":http://code.google.com/apis/imagesearch/
+
+
+h2. Examples
+
+<pre><code>require 'google_image_api'
+  result = GoogleImageApi.find("your term", {
+    :imgsz => "medium",
+    :rsz => 8,
+    :start => 8,
+    :imgtype  => "face",
+    :as_filetype => "jpg"
+  })
+
+  result.images.each do |img|
+    puts img['url']
+  end
+</code></pre>
+
+h2. Configuration
+
+This is by default configured like this:
+
+"http://code.google.com/apis/loader/signup.html":http://code.google.com/apis/loader/signup.html
+
+<pre><code>GoogleImageApi.Configure {
+  key nil # optional
+}</code></pre>
