@@ -1,6 +1,6 @@
 h1. Google image
 
-Allows you to get images through their google image API.
+Allows you to get images through google image API.
 
 API reference: "http://code.google.com/apis/imagesearch/":http://code.google.com/apis/imagesearch/
 
