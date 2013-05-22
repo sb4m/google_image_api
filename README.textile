@@ -1,4 +1,6 @@
-h1. Google image
+h1. Important: The Google Image Search API has been officially deprecated as of May 26, 2011. It will continue to work as per our deprecation policy, but the number of requests you may make per day may be limited. We encourage you to upgrade to the Custom Search API, which now supports image search.
+
+h2. Google image
 
 Allows you to get images through google image API.
 
